@@ -2,6 +2,7 @@
 This project aims to compare the efficiency of four supervised machine learning methods: Classification And Regression Tree, SVM, K-nearest Neighbours and Random Forest in classifying winning and losing funds.
 The original dataset is collected from Kaggle through the following link: https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-and-etfs and stored in ETFs.csv. 
 The detailed code is stored in SML.ipynb.
+
 I use 21 features to classify the funds:
 - investment_type: Fund type, either "blend", "growth" or "value"
 - total_net_assets: Total net assets in US dollars
