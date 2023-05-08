@@ -13,6 +13,7 @@ I use 21 features to classify the funds:
 - fund_price_earning_ratio: Ratio of price per share to earning per share
 - fund_price_sales_ratio: Ratio of price per share to sales per share
 - Sector weights as percentage: basic materials, consumer cyclical, financial services, real estate, consumer defensive, healthcare, utilities, communication services, energy, industrials, technology (11 features)
+
 In order to categorize the ETF funds, we come up with the following rules:
 - If fund_return_1_month is more than or equal mean(fund_return_1_month) + one std.dev(fund_return_1_month), indicating a winning fund
 - If fund_return_1_month is less than or equal mean(fund_return_1_month) - one std.dev(fund_return_1_month), indicating a losing fund
